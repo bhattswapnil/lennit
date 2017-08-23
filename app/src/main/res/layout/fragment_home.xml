@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mi4"
+    tools:context="layout.homeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="welcome to Jobphilia "
+        android:id="@+id/textq"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button3"
+        android:layout_gravity="left|center_vertical"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:background="#e3f4613c" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/button4"
+        android:layout_gravity="left|center_vertical"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="200dp"
+        android:background="#e3f4613c" />
+</FrameLayout>
